@@ -1,4 +1,5 @@
 import streamlit as st
+from views.flow_view import render_flowchart_section
 
 # Configuración de la página
 st.set_page_config(
@@ -16,7 +17,7 @@ def main():
     """)
 
     # Creación de los tabuladores (secciones)
-    tab_flujo, tab_clases, tab_er, tab_secuencia = st.tabs([
+    tabs = st.tabs([
         "Diagramas de Flujo", 
         "Diagramas de Clases", 
         "Entidad-Relación", 
@@ -24,28 +25,8 @@ def main():
     ])
 
     # Sección: Diagramas de Flujo
-    with tab_flujo:
-        st.subheader("Flowcharts")
-        st.info("Próximamente: Ejemplos de lógica algorítmica y procesos.")
-        # Aquí insertaremos la lógica de la sección 1
-
-    # Sección: Diagramas de Clases
-    with tab_clases:
-        st.subheader("Class Diagrams")
-        st.info("Próximamente: Estructuras de Programación Orientada a Objetos.")
-        # Aquí insertaremos la lógica de la sección 2
-
-    # Sección: Diagramas de Entidad-Relación
-    with tab_er:
-        st.subheader("Entity Relationship Diagrams (ERD)")
-        st.info("Próximamente: Modelado de bases de datos relacionales.")
-        # Aquí insertaremos la lógica de la sección 3
-
-    # Sección: Diagramas de Secuencia
-    with tab_secuencia:
-        st.subheader("Sequence Diagrams")
-        st.info("Próximamente: Interacción entre objetos y flujos temporales.")
-        # Aquí insertaremos la lógica de la sección 4
+    with tabs[0]:
+        render_flowchart_section()
 
 if __name__ == "__main__":
     main()
