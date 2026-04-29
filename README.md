@@ -3,7 +3,7 @@
 Este proyecto es una herramienta educativa diseñada para enseñar la sintaxis de Mermaid aplicada a la arquitectura de software.
 
 ## Estructura del Proyecto
-- `main.py`: Archivo principal con la interfaz de Streamlit.
+- `app.py`: Archivo principal con la interfaz de Streamlit.
 - `requirements.txt`: Dependencias del sistema.
 - `.gitignore`: Archivos excluidos del repositorio.
 
