@@ -10,4 +10,4 @@ Este proyecto es una herramienta educativa diseñada para enseñar la sintaxis d
 ## Cómo ejecutarlo localmente
 1. Clonar el repositorio.
 2. Instalar dependencias: `pip install -r requirements.txt`
-3. Ejecutar: `streamlit run main.py`
+3. Ejecutar: `streamlit run app.py`
