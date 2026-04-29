@@ -9,7 +9,7 @@ st.set_page_config(
 
 def main():
     # Header Principal
-    st.header("📊 Ejemplos de diagramas con Mermaid")
+    st.header("📊 Ejemplos de diagramas con Mermaid 2")
     st.markdown("""
     Esta herramienta permite previsualizar y entender la sintaxis de diferentes 
     diagramas técnicos utilizados en la arquitectura de software y el diseño de sistemas.
