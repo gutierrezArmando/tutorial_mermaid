@@ -1,0 +1,4 @@
+streamlit
+# Añade aquí otras librerías si las usas más adelante, por ejemplo:
+# pandas
+# matplotlib
